@@ -1,0 +1,5 @@
+C:\Users\arago\Desktop\BingoPPJyPJ\BingoWPF.exe
+C:\Users\arago\Desktop\BingoPPJyPJ\BingoWPF.dll
+C:\Users\arago\Desktop\BingoPPJyPJ\BingoWPF.deps.json
+C:\Users\arago\Desktop\BingoPPJyPJ\BingoWPF.runtimeconfig.json
+C:\Users\arago\Desktop\BingoPPJyPJ\BingoWPF.pdb

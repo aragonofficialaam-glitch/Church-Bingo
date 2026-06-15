@@ -1,0 +1,100 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>WinExe</OutputType>
+		<TargetFramework>net10.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>enable</Nullable>
+	</PropertyGroup>
+
+	<ItemGroup>
+	  <None Remove="Images\bingoP\bp\JUGADAS.png" />
+	  <None Remove="Images\bingoP\bp\jugadasBG.png" />
+	  <None Remove="Images\bingoP\bp\jugadasBG4.png" />
+	  <None Remove="Images\bingoP\bp\jugadasBG5.png" />
+	  <None Remove="Images\bingoP\bp\jugadasBG6.png" />
+	  <None Remove="Images\bingoP\bp\JUGADOTAS.png" />
+	  <None Remove="Images\bingoP\bp\NumeroBP.png" />
+	  <None Remove="Images\bingoP\bp\NumeroBP2.png" />
+	  <None Remove="Images\bingoP\bp\numeroG.png" />
+	  <None Remove="Images\bingoP\fondillo.png" />
+	  <None Remove="Images\bingoP\fondote.png" />
+	  <None Remove="Images\bingoP\tablero.png" />
+	  <None Remove="Images\blanco.png" />
+	  <None Remove="Images\definitivas\fondo.png" />
+	  <None Remove="Images\definitivas\numero.png" />
+	  <None Remove="Images\definitivas\resumen.png" />
+	  <None Remove="Images\definitivas\tablero.png" />
+	  <None Remove="Images\ImagenP.png" />
+	  <None Remove="Images\imgprin.jpg" />
+	  <None Remove="Images\int.png" />
+	  <None Remove="Images\InterfasP.png" />
+	  <None Remove="Images\resumen\fondo.png" />
+	  <None Remove="numeroG.png" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="QuestPDF" Version="2026.5.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Images\bingoP\bp\JUGADAS.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\bingoP\tablero.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Images\bingoP\bp\JUGADOTAS.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\bingoP\bp\NumeroBP.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Page Include="App.xaml" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Images\bingoP\bp\NumeroBP2.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\bingoP\bp\numeroG.png" />
+	  <Resource Include="Images\bingoP\fondillo.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\bingoP\fondote.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\blanco.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\definitivas\fondo.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\definitivas\numero.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\definitivas\resumen.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\definitivas\tablero.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\ImagenP.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\int.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="Images\resumen\fondo.png">
+	    <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+	  </Resource>
+	  <Resource Include="numeroG.png" />
+	</ItemGroup>
+
+</Project>

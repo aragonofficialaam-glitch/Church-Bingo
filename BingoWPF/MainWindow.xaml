@@ -1,0 +1,34 @@
+﻿<Window x:Class="BingoWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Bingo Inmaculada Concepción de María"
+        Width="1920"
+        Height="1080"
+        WindowStartupLocation="CenterScreen"
+        WindowState="Normal"
+        Background="#121212">
+
+    <Grid Width="1920" Height="1080">
+
+        <Grid.Background>
+            <ImageBrush ImageSource="/Images/ImagenP.png"
+                        Stretch="UniformToFill"/>
+        </Grid.Background>
+
+        <Button x:Name="BtnPrincipal"
+                Content="Iniciar BINGO"
+                HorizontalAlignment="Left"
+                VerticalAlignment="Top"
+                Margin="1277,692,0,0"
+                Width="408"
+                Height="98"
+                FontSize="34"
+                FontWeight="Bold"
+                Background="#1f6feb"
+                Foreground="White"
+                BorderBrush="Black"
+                BorderThickness="3"
+                Click="BtnPrincipal_Click"/>
+
+    </Grid>
+</Window>
