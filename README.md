@@ -20,16 +20,16 @@ The operator moves the physical bingo balls and enters the number into the progr
 ## Screenshots
 
 **Initial Setup**
-![InicialSelect](BingoFolder/InicialSelect.png)
+![InicialSelect](BingoWPF/BingoFolder/InicialSelect.png)
 
 **Main Window**
-![MainWindow](BingoFolder/MainWindow.png)
+![MainWindow](BingoWPF/BingoFolder/MainWindow.png)
 
 **Resume**
-![Resume](BingoFolder/Resume.png)
+![Resume](BingoWPF/BingoFolder/Resume.png)
 
 **Bingo Board**
-![StartBingo](BingoFolder/StartBingo.png)
+![StartBingo](BingoWPF/BingoFolder/StartBingo.png)
 
 **Game in Progress**
-![StartedBingo](BingoFolder/StartedBingo.png)
+![StartedBingo](BingoWPF/BingoFolder/StartedBingo.png)
