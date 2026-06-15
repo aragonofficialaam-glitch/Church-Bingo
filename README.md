@@ -18,7 +18,6 @@ A Bingo application built for my local church community, designed to work alongs
 The operator moves the physical bingo balls and enters the number into the program. The app highlights the number on the board and keeps a history of all called numbers during the session.
 
 ## Screenshots
-## Screenshots
 
 **Initial Setup**
 ![InicialSelect](BingoFolder/InicialSelect.png)
